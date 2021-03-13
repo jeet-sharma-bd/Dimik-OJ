@@ -1,0 +1,18 @@
+//www.facebook.com/jeetrobin
+//jeet sharma
+#include<bits/stdc++.h>
+using namespace std; 
+int main() 
+{ 
+int n=1000,cnt=0;
+   while(n)
+   {
+   			cout<<n<<"\t";
+   			cnt++;
+   			if(cnt==5)
+			{ cnt=0;
+				cout<<endl;
+			}
+   	n--;
+	}
+}
